@@ -1,0 +1,28 @@
+{
+  "name": "eslint-pass",
+  "version": "1.0.0",
+  "description": "To make sure all eslint passes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azutech/Eslint-Pass.git"
+  },
+  "author": "Emmanuel Onugha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azutech/Eslint-Pass/issues"
+  },
+  "homepage": "https://github.com/Azutech/Eslint-Pass#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
